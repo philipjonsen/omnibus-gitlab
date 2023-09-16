@@ -1,0 +1,25 @@
+version = 1
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
+name = "php"
+
+[[analyzers]]
+name = "cxx"
+
+[[analyzers]]
+name = "csharp"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/philipjonsen/omnibus-gitlab"
+
+[[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "ansible"
